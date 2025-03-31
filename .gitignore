@@ -1,2 +1,6 @@
 .idea
 venv/
+
+restaurants_vitebsk.csv
+restaurants_vitebsk_clean.csv
+
