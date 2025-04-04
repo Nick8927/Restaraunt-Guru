@@ -3,7 +3,7 @@ import asyncio
 from bs4 import BeautifulSoup
 import re
 
-path_to_file = r"/project/restaurants_vitebsk_clean.md"
+path_to_file = r"/parsers/restaurants_vitebsk_clean.md"
 INPUT_FILE = path_to_file
 OUTPUT_FILE = "restaurants_vitebsk_with_phones.md"
 
@@ -28,7 +28,6 @@ async def get_phone(session, url):
 
     soup = BeautifulSoup(html, "html.parser")
 
-    # Проверим, какой HTML возвращается
     with open("debug_page.html", "w", encoding="utf-8") as f:
         f.write(html)
 
@@ -80,5 +79,5 @@ async def parse_restaurant_phones():
     print(f"✅ Данные с телефонами сохранены в {OUTPUT_FILE}")
 
 
-if __name__ == "__main__":
-    asyncio.run(parse_restaurant_phones())
+# if __name__ == "__main__":
+#     asyncio.run(parse_restaurant_phones())
