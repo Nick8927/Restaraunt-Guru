@@ -1,5 +1,5 @@
 📌 Название проекта:
-RestaurantGuru Scraper
+Restaurant-Guru Scraper
 
 
 📄 Описание
