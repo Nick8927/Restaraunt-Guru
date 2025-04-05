@@ -1,5 +1,5 @@
 📌 Название проекта:
-Restaurant-Guru Scraper
+Restaurant-Guru 
 
 
 📄 Описание
@@ -22,7 +22,7 @@ webdriver_manager
 ⚙️ Установка и запуск
 1. Клонирование проекта:
 git clone https://github.com/Nick8927/Restaraunt-Guru
-cd restaurant-scraper
+cd директора проекта
 2. Создание и активация виртуального окружения:
 python -m venv venv
 venv\Scripts\activate   # для Windows
